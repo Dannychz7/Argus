@@ -22,10 +22,13 @@ TODO List
 ---------------------------------------------
 - Create a full stack SOC system to monitor network
      - Tools Needed (These are all open source):
-	- EDR/AV - Either OpenEDR or OSSEC
-	- Phishing - GoPhish
-	- Vulnerability Management - OpenVAS and Nikto for web servers
-	- Insider Risk/ DLP - myDLP (preferred) or openDLP if anything
-	- Cloud Security - CloudSploit
-	- Logging/SIEM - Elastic SIEM with Kibana and Beats or Wazuh
-	- Logging - Shuffle + Wazuh + TheHive + Cortex = Automation Bliss
+	[] EDR/AV - Either OpenEDR or OSSEC
+	[] Phishing - GoPhish
+	[] Vulnerability Management - OpenVAS and Nikto for web servers
+	[] Insider Risk/ DLP - myDLP (preferred) or openDLP if anything
+	[] Cloud Security - CloudSploit
+	[] Logging/SIEM - Elastic SIEM with Kibana and Beats or Wazuh
+		- First, instak ELK stack (Elastic + logstash + kibana). Ensure it is up and running
+       		- Second, attempt to integrate wuzuh into the ELK stack
+           	- Create some garbage JSON to have it flow though the pipeline
+	[] Logging - Shuffle + Wazuh + TheHive + Cortex = Automation Bliss
