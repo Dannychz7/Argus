@@ -10,7 +10,7 @@ Welcome to the journey
 Testing#3
 
 
-[MacBook (Victim)] ←→ [Home Network (NORAD)] ←→ [SOC Server]
+[MacBook (Victim)] ←→ [Home Network] ←→ [SOC Server]
      ↑                        ↑                        ↓
 [MacBook (Attacker)]     [Router/Firewall]       [Dockerized Tools]
      ↓                        ↓                        ↓
